@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+
+  background: green;
+  color: white;
+}
+.li {
+  justify-content: space-around;
+  margin: 0 20px;
+}
