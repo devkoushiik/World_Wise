@@ -42,7 +42,6 @@ function AuthProvider({ children }) {
 
   return (
     <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
-      {console.log(user)}
       {children}
     </AuthContext.Provider>
   );

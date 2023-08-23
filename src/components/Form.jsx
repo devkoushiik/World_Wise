@@ -69,7 +69,6 @@ function Form() {
         alert(err);
       } finally {
         setIsLoadingGeocoding(false);
-        console.log(country, cityName);
       }
     };
     fetchCityData();

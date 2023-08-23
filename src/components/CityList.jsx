@@ -15,7 +15,6 @@ const CityList = () => {
     );
   return (
     <ul className={styles.cityList}>
-      {console.log(cities)}
       {cities.map((city) => (
         <CityItem city={city} key={city.id} />
       ))}
