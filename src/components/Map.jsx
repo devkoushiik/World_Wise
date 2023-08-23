@@ -7,6 +7,7 @@ import {
   useMap,
   useMapEvents,
 } from "react-leaflet";
+import "react-datepicker/dist/react-datepicker.css";
 
 import styles from "./Map.module.css";
 import { useEffect, useState } from "react";
